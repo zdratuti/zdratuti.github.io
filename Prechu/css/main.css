@@ -1,0 +1,283 @@
+@font-face {
+  font-family: "SegoeWP Light";
+  src: url("../fonts/segoe-wp-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SegoeWPN Regular";
+  src: url("../www/fonts/segoe-wpn.ttf") format("truetype");
+}
+
+.navbar-brand {
+  font-family: 'SegoeWP Light', sans-serif;
+  font-size: 42px;
+}
+
+.navbar-brand img {
+  margin-right: 15px;
+}
+
+.nav-link {
+  position: relative;
+  margin: 0 20px;
+  font-family: 'SegoeWPN Regular', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.nav-link:hover:after {
+  position: absolute;
+  left: 0;
+  bottom: -21.5px;
+  content: '';
+  width: 100%;
+  border-bottom: 3px solid #5094f2;
+}
+
+#slider {
+  background: url(../img/bg-slider.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.owl-text {
+  font-family: 'SegoeWP Light', sans-serif;
+  color: #ffffff;
+}
+
+.owl-title {
+  font-size: 42px;
+}
+
+.owl-desc {
+  max-width: 60%;
+  font-size: 26px;
+}
+
+.owl-link {
+  font-size: 22px;
+}
+
+.owl-link a {
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: #5094f2;
+  color: #ffffff;
+}
+
+.owl-link svg {
+  margin-top: -3px;
+  margin-right: 10px;
+  fill: #ffffff;
+}
+
+.owl-nav {
+  margin-top: 0 !important;
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  outline: none;
+  width: 25px;
+  height: 63px;
+  margin: 0 !important;
+  color: transparent !important;
+}
+
+.owl-prev {
+  left: -25px;
+  background: url(../img/arrow-left.png) !important;
+}
+
+.owl-next {
+  right: -25px;
+  background: url(../img/arrow-right.png) !important;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider-item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.slider-text {
+  color: #ffffff;
+  font-family: 'SegoeWP Light', sans-serif;
+}
+
+.slider-title {
+  font-size: 42px;
+}
+
+.slider-desc {
+  width: 60%;
+  font-size: 26px;
+}
+
+.slider-link a {
+  color: #ffffff;
+  font-size: 26px;
+  background-color: #5094f2;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.slider-link svg {
+  margin-top: -6px;
+  margin-right: 10px;
+  fill: #ffffff;
+}
+
+.slider-prev, .slider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 63px;
+  background: 0;
+  border: 0;
+  outline: none !important;
+}
+
+.slider-prev {
+  left: 0;
+  background-image: url(../img/arrow-left.png);
+}
+
+.slider-next {
+  right: 0;
+  background-image: url(../img/arrow-right.png);
+}
+
+.bg-blue {
+  background-color: #5094f2;
+}
+
+.bg-red {
+  background-color: #d94748;
+}
+
+.bg-yellow {
+  background-color: #ebbb11;
+}
+
+#services {
+  position: relative;
+}
+
+#services:before {
+  position: absolute;
+  content: '';
+  top: -8px;
+  height: 9px;
+  width: 100%;
+  background: url(../img/bg-services.png);
+  background-repeat: repeat-x;
+}
+
+.services-item {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.services-img {
+  position: relative;
+  width: 187px;
+  height: 187px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 100%;
+}
+
+.services-img svg {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  fill: #ffffff;
+}
+
+.services-text {
+  font-family: 'SegoeWPN Regular', sans-serif;
+}
+
+.services-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #5094f2;
+}
+
+.services-text p {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #909090;
+}
+
+.shop-title {
+  padding: 0 50px;
+}
+
+.shop-title h1 {
+  font-family: 'SegoeWPN Regular', sans-serif;
+  font-size: 42px;
+  color: #6f7173;
+}
+
+.shop-content {
+  padding: 0 50px;
+}
+
+.shop-img {
+  padding-top: 30px;
+}
+
+.shop-img img {
+  max-width: 370px;
+}
+
+.shop-text h2 {
+  font-family: 'SegoeWPN Regular', sans-serif;
+  font-size: 26px;
+  color: #6f7173;
+}
+
+.shop-text p {
+  color: #909090;
+  line-height: 2.5;
+}
+
+#footer {
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  text-align: center;
+}
+
+.footer p {
+  color: #909090;
+  font-size: 15px;
+}
