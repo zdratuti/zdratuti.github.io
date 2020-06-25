@@ -30,7 +30,7 @@ function showWarehouses(data) {
     let output = "<ul>";
     let i;
 
-    for (var i in data.data) {
+    for (i in data.data) {
         output += "<li>" + data.data[i].name + " Город: " + data.data[i].city + "</li>";
     }
     output += "</ul>";
