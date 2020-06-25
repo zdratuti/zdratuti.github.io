@@ -17,7 +17,7 @@
 let url = "http://api.odesseo.com.ua/warehouses";
 
 xhr.onreadystatechange = function() {
-    of (xhr.readyState == 4 && xhr.status == 200) {
+    if (xhr.readyState == 4 && xhr.status == 200) {
         let jsonData = JSON.parse(xhr.responseText);
         showWarehouses(jsonData);
     }
