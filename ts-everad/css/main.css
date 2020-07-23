@@ -393,7 +393,7 @@
 }
 
 .section__title {
-  margin-top: 20px;
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -701,6 +701,12 @@
   }
   .brand-green {
     bottom: -400px;
+  }
+  .tagline__item {
+    padding-right: 5px;
+  }
+  .tagline__img {
+    margin-right: 10px;
   }
   .subtext {
     flex-direction: column;
