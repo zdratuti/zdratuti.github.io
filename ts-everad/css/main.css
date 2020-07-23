@@ -63,6 +63,10 @@
   margin-right: 15px;
 }
 
+.logo-sm {
+  display: none;
+}
+
 .promo-bg {
   position: absolute;
   top: 0;
@@ -522,6 +526,22 @@
   #header .container {
     padding: 0 30px;
   }
+  .logo-sm {
+    display: block;
+    margin-bottom: 30px;
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 22px;
+  }
+  .logo-sm a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #383334;
+  }
+  .logo-sm img {
+    margin-right: 15px;
+  }
   .tagline {
     flex-direction: column;
   }
@@ -577,6 +597,22 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
   #header .container {
     padding: 0 30px;
+  }
+  .logo-sm {
+    display: block;
+    margin-bottom: 30px;
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 22px;
+  }
+  .logo-sm a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #383334;
+  }
+  .logo-sm img {
+    margin-right: 15px;
   }
   .subtext {
     flex-direction: column;
@@ -680,6 +716,7 @@
   .about {
     margin: 0;
     margin-bottom: 60px;
+    justify-content: center;
   }
   .about__item {
     width: 310px;
