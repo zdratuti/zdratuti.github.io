@@ -1,0 +1,42 @@
+@import "fonts";
+@import "header";
+@import "media";
+
+$color-orange: #ff6b00;
+$color-green: #a7c93d;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 0 solid #000000;
+}
+.d-f {
+    display: flex;
+}
+.bb {
+    position: relative;
+    z-index: 1;
+    &::before {
+        position: absolute;
+        bottom: 1px;
+        content: '';
+        height: 5px;
+        width: 100%;
+        z-index: -1;
+    }
+}
+.b-green {
+    &::before {
+        background-color: $color-green;
+    }
+}
+.b-orange {
+    &::before {
+        background-color: $color-orange;
+    }
+}
