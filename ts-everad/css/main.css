@@ -591,6 +591,7 @@
   .about__desc {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
   }
 }
 
@@ -647,6 +648,7 @@
   }
   .about__desc {
     width: 100%;
+    text-align: center;
   }
 }
 
