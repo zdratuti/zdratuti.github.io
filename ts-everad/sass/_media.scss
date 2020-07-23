@@ -33,7 +33,7 @@
         margin: 0;
     }
     .about__item {
-        width: 500px;
+        width: 100%;
         margin-bottom: 60px;
     }
     .about__img {
@@ -41,12 +41,17 @@
         img {
             margin-bottom: 30px;
         }
+        span {
+            text-align: center;
+        }
     }
     .about__number {
-        left: 285px;
+        left: 52%;
+        transform: translateX(55%);
     }
     .about__desc {
         width: 100%;
+        margin: 0 auto;
     }
 }
 
