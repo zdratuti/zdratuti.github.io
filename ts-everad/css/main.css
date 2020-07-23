@@ -137,6 +137,10 @@
   color: #666666;
 }
 
+.tagline__img {
+  margin-right: 10px;
+}
+
 .subtext {
   display: flex;
 }
